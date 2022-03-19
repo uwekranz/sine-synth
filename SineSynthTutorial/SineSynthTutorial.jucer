@@ -2,7 +2,7 @@
 
 <JUCERPROJECT name="SineSynthTutorial" companyName="JUCE" version="1.0.0" userNotes="Simple sine synthesiser."
               companyWebsite="http://juce.com" defines="" projectType="guiapp"
-              id="R5uqfL" jucerVersion="5.4.7">
+              id="R5uqfL" jucerFormatVersion="1">
   <MAINGROUP id="OtGhPY" name="SineSynthTutorial">
     <GROUP id="{14857B43-8514-FC3E-4B32-C729B8F90CCC}" name="Source">
       <FILE id="yE4lbe" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
