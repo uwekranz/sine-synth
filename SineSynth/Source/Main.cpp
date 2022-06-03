@@ -7,7 +7,7 @@
 */
 
 #include <JuceHeader.h>
-#include "SineSynthTutorial_01.h"
+#include "SineSynth.h"
 
 class Application    : public JUCEApplication
 {
@@ -15,10 +15,10 @@ public:
     //==============================================================================
     Application() {}
 
-    const String getApplicationName() override       { return "SineSynthTutorial"; }
+    const String getApplicationName() override       { return "SineSynth"; }
     const String getApplicationVersion() override    { return "1.0.0"; }
 
-    void initialise (const String&) override         { mainWindow.reset (new MainWindow ("SineSynthTutorial", new MainContentComponent(), *this)); }
+    void initialise (const String&) override         { mainWindow.reset (new MainWindow ("SineSynth", new MainContentComponent(), *this)); }
     void shutdown() override                         { mainWindow = nullptr; }
 
 private:

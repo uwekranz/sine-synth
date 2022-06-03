@@ -6,8 +6,7 @@
   <MAINGROUP id="OtGhPY" name="SineSynth">
     <GROUP id="{14857B43-8514-FC3E-4B32-C729B8F90CCC}" name="Source">
       <FILE id="yE4lbe" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
-      <FILE id="LtyEOe" name="SineSynthTutorial_01.h" compile="0" resource="0"
-            file="Source/SineSynthTutorial_01.h"/>
+      <FILE id="LtyEOe" name="SineSynth.h" compile="0" resource="0" file="Source/SineSynth.h"/>
     </GROUP>
   </MAINGROUP>
   <MODULES>
@@ -24,7 +23,7 @@
     <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
   </MODULES>
   <EXPORTFORMATS>
-      <XCODE_MAC targetFolder="Builds/MacOSX">
+    <XCODE_MAC targetFolder="Builds/MacOSX">
       <CONFIGURATIONS>
         <CONFIGURATION name="Debug" isDebug="1" optimisation="1" targetName="SineSynthTutorial"/>
         <CONFIGURATION name="Release" isDebug="0" optimisation="3" targetName="SineSynthTutorial"/>
@@ -62,7 +61,7 @@
         <MODULEPATH id="juce_gui_extra" path=""/>
       </MODULEPATHS>
     </VS2019>
-        <LINUX_MAKE targetFolder="Builds/LinuxMakefile">
+    <LINUX_MAKE targetFolder="Builds/LinuxMakefile">
       <CONFIGURATIONS>
         <CONFIGURATION name="Debug" isDebug="1" optimisation="1" targetName="SineSynthTutorial"/>
         <CONFIGURATION name="Release" isDebug="0" optimisation="3" targetName="SineSynthTutorial"/>
